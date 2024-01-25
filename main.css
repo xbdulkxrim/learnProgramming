@@ -1,0 +1,35 @@
+html {
+    font-size: 22px
+}
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+selector {
+  color: rgb(85, 233, 0);
+}
