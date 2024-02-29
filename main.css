@@ -1,10 +1,11 @@
 html {
-    font-size: 22px
+    font-size: 22px;
 }
 
 body {
     background-color: #333;
     color: whitesmoke;
+    font-family: 'Calibri';
 }
 
 a:link {
@@ -12,7 +13,7 @@ a:link {
     background-color: transparent;
     text-decoration: none;
   }
-  
+
   a:visited {
     color: orange;
     background-color: transparent;
@@ -30,13 +31,22 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
 }
+
 .neongreen {
-  color: rgb(85, 233, 0);
+  color: rgb(149, 0, 218);
+}
+
+.mediumtext {
+  font-size: 28px;
+}
+
+.largetext {
+  font-size: 40px;
 }
 
 table, tr, th, td, caption {
   border: 1px solid #eee;
-  font-family: 'Courier New', Courier, monospace;
+  font-family:Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   padding:0.5rem
 }
